@@ -13,15 +13,15 @@
       <script src="index.js"></script>
       <!-- javascrip link-->
 
-      <header class="inverse">
+      <header class="inverse">  <!-- like a section but unique, first and only -->
           <div class="container">
               <h1>Hello, my name is <span class="accent-text">Logan</span></h1>
               <img src="img/treeicon.png" alt="black outline of a tree">
           </div>
       </header>
 
-      <section class="about-me">
-          <div class="container">
+      <section class="about-me">    <!-- first section after the header -->
+          <div class="container">     <!-- staying organized with content in their own seperate div-->
               <h2>I am a passionate self taught <span class="accent-text">developer</span></h2>
               <p>This blog is made for me to document and share my journey as a self taught developer. 
                 I intend to provide useful resources along with abbreviated summary of concepts.</p>
@@ -42,6 +42,18 @@
               <a href="#" class="btn">See all my work</a>
           </article>
         </div>
+      </section>
+
+      <section class="contant-me">
+        <div id="overlay">
+          <div id="modal">
+            <h2>Contact Details</h2>
+            <p>luckyloganjames@gmail.com or <a href="#">Github</a></p>
+            <button id="close-modal">Close!</button>
+          </div>
+        </div>
+
+        <button id="open-modal">Contact Me</button>
       </section>
       
     </body>
